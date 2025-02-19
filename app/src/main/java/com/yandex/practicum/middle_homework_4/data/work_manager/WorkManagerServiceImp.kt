@@ -39,7 +39,8 @@ class WorkManagerServiceImp(
     }
 
     private fun createConstraints(): Constraints {
-        return Constraints(requiredNetworkType = NetworkType.CONNECTED)
+        // Реализуйте метод, возвращающий Constraints
+        // В условиях укажите необходимость наличия интернет соединения.
     }
 
     private fun createRequest(repeat: Long, delayed: Long): PeriodicWorkRequest {
